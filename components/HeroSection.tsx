@@ -203,7 +203,7 @@ export default function HeroSection() {
             </div>
 
             {/* Floating badges */}
-            <div className="absolute -top-4 -left-4 glass-card rounded-xl px-3 py-2 flex items-center gap-2 shadow-xl animate-delay-600 animate-fadeInLeft">
+            <div className="absolute -top-10 md:-top-9 -left-4 glass-card rounded-xl px-3 py-2 flex items-center gap-2 shadow-xl animate-delay-600 animate-fadeInLeft">
               <div className="w-7 h-7 rounded-lg bg-green-500/15 flex items-center justify-center">
                 <div className="w-2 h-2 rounded-full bg-green-400" />
               </div>
