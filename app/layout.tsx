@@ -55,6 +55,7 @@ export const metadata: Metadata = {
     title: 'FFCVM – FFC Virtual Mortgages',
     description: 'Own Real Estate. Keep Your Crypto. Virtual Mortgages Backed by FFC Digital Assets.',
     images: ['/og-image.png'],
+    
   },
 };
 

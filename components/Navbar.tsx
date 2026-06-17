@@ -38,7 +38,8 @@ export default function Navbar() {
       {/* Floating pill container */}
       <nav className="max-w-6xl mx-auto bg-[#07111f]/85 backdrop-blur-2xl border border-white/[0.08] rounded-2xl shadow-2xl shadow-black/50 px-5 h-14 flex items-center justify-between gap-4">
 
-        {/* Logo */}
+       
+
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className="flex items-center gap-3 flex-shrink-0 group"
