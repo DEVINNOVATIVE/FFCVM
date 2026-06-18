@@ -13,12 +13,9 @@ export default function CorePhilosophy({ whyChoices }: { whyChoices: string[] })
             <span className="inline-block px-3 py-1 rounded-full border border-[#0ea5e9]/20 bg-[#0ea5e9]/5 text-[#0ea5e9] text-xs font-medium tracking-widest mb-4">
               CORE PHILOSOPHY
             </span>
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-5">Why FFCVM Exists</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-5">The Core Philosophy: Why FFCVM Exists</h2>
             <p className="text-white/55 text-lg leading-relaxed">
-              As the digital asset economy matures, the financial strategies of sophisticated
-              investors must mature with it. For decades, real estate has served as the ultimate
-              asset class for wealth preservation, tax optimization, and generational security.
-              Conversely, digital assets represent the frontier of high-growth innovation.
+              As the digital asset economy matures, the financial strategies of sophisticated investors must mature with it. For decades, real estate has served as the ultimate asset class for wealth preservation, tax optimization, and generational security. Conversely, digital assets represent the frontier of high-growth innovation, technological evolution, and rapid liquidity.
             </p>
           </div>
 
@@ -44,10 +41,7 @@ export default function CorePhilosophy({ whyChoices }: { whyChoices: string[] })
           >
             <p className="text-white font-semibold text-lg mb-2">FFCVM was built to shatter this compromise.</p>
             <p className="text-white/60 text-base leading-relaxed">
-              Our virtual mortgage infrastructure recognizes that your digital portfolio is a
-              highly valuable, legitimate form of capital. We enable you to borrow against your
-              FFC holdings natively — maintaining your long-term investment thesis while
-              simultaneously closing on physical real estate deals.
+              Our virtual mortgage infrastructure recognizes that your digital portfolio is a highly valuable, legitimate form of capital. We enable you to borrow against your FFC holdings natively, maintaining your long-term investment thesis while simultaneously closing on physical real estate deals.
             </p>
           </div>
         </div>

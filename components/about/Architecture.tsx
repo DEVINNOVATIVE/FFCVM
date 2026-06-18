@@ -1,10 +1,7 @@
 'use client';
 
 import { useInView } from '@/hooks/useInView';
-
-import { Zap, Shield, TrendingUp, Globe, DollarSign, Layers } from 'lucide-react';
-
-
+import { TrendingUp, Globe, DollarSign, Layers } from 'lucide-react';
 
 export default function Architecture() {
   const { ref, inView } = useInView();
@@ -12,13 +9,13 @@ export default function Architecture() {
   {
     icon: DollarSign,
     title: 'Tax-Efficient Capital Access',
-    desc: 'Because you are borrowing against your assets rather than selling them, your transaction does not trigger a taxable disposition event — allowing you to legally and strategically optimize your tax exposure.',
+    desc: 'Because you are borrowing against your assets rather than selling them, your transaction does not trigger a taxable disposition event, allowing you to legally and strategically optimize your tax exposure.',
     color: '#10b981',
   },
   {
     icon: TrendingUp,
     title: 'Retained Market Exposure',
-    desc: 'Keep your FFC holdings working for you. Retain full exposure to the growth potential of your digital assets while simultaneously living in, developing, or generating rental yields from newly acquired property.',
+    desc: 'Keep your FFC holdings working for you. You retain full exposure to the growth potential of your digital assets while simultaneously living in, developing, or generating rental yields from your newly acquired physical property.',
     color: '#cbfb45',
   },
   {
@@ -46,9 +43,7 @@ export default function Architecture() {
             The Virtual Mortgage Architecture
           </h2>
           <p className="text-white/55 text-lg leading-relaxed max-w-3xl mx-auto">
-            The traditional lending sector has failed to adapt to the reality of modern wealth.
-            FFCVM completely rewrites these rules, introducing a tailored suite of financial
-            advantages for digital asset holders.
+            The traditional lending sector has failed to adapt to the reality of modern wealth. Brilliant innovators, tech leaders, and digital asset holders are routinely penalized by legacy credit scoring systems that do not understand or recognize digital portfolios as valid collateral. FFCVM completely rewrites these rules, introducing a tailored suite of financial advantages:
           </p>
         </div>
 

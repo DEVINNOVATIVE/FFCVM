@@ -1,18 +1,15 @@
 'use client';
 
 import { useInView } from '@/hooks/useInView';
-import { CheckCircle2, LucideIcon } from 'lucide-react';
-import { Zap, Shield, TrendingUp, Globe, DollarSign, Layers } from 'lucide-react';
-
-
+import { CheckCircle2, Zap, Shield } from 'lucide-react';
 
 export default function Pillars() {
   const { ref, inView } = useInView();
   const pillars = [
   {
     icon: Zap,
-    label: 'Pillar 1',
-    title: 'Fast: Velocity Meets Modern Capital Allocation',
+    label: 'Principle 1',
+    title: '1. Fast: Velocity Meets Modern Capital Allocation',
     color: '#cbfb45',
     points: [
       {
@@ -21,7 +18,7 @@ export default function Pillars() {
       },
       {
         title: 'Accelerated Approvals',
-        desc: 'By digitizing the verification pipeline, we deliver rapid structural approvals and accelerated funding timelines — executing transactions in a fraction of the time required by traditional lenders.',
+        desc: 'By digitizing the verification pipeline, we deliver rapid structural approvals and accelerated funding timelines, executing transactions in a fraction of the time required by traditional lenders.',
       },
       {
         title: 'Seamless Capital Deployment',
@@ -31,8 +28,8 @@ export default function Pillars() {
   },
   {
     icon: Shield,
-    label: 'Pillar 2',
-    title: 'Secure: Institutional-Grade Architecture',
+    label: 'Principle 2',
+    title: '2. Secure: Institutional-Grade Architecture',
     color: '#0ea5e9',
     points: [
       {
@@ -41,7 +38,7 @@ export default function Pillars() {
       },
       {
         title: 'Proactive Volatility Mitigation',
-        desc: 'FFCVM employs proprietary risk mitigation protocols and flexible loan-to-value (LTV) models engineered to handle market fluctuations smoothly, protecting both the borrower\'s equity and the platform\'s stability.',
+        desc: "Digital markets require sophisticated risk management. FFCVM employs proprietary risk mitigation protocols and flexible loan-to-value (LTV) models engineered to handle market fluctuations smoothly, protecting both the borrower's equity and the platform's long-term stability.",
       },
       {
         title: 'Audited & Compliant Frameworks',
@@ -60,11 +57,10 @@ export default function Pillars() {
             FOUNDATIONAL PILLARS
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Two Uncompromised Principles
+            Our Foundational Pillars
           </h2>
           <p className="text-white/50 text-lg max-w-2xl mx-auto">
-            To completely disrupt an industry as antiquated as traditional real estate lending,
-            we built FFCVM on two uncompromised principles.
+            To completely disrupt an industry as antiquated as traditional real estate lending, we built FFCVM on two uncompromised principles:
           </p>
         </div>
 

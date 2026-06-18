@@ -17,18 +17,13 @@ export default function Vision() {
           OUR VISION
         </span>
         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-          The Future of Global Wealth
+          Our Vision for the Future of Global Wealth
         </h2>
         <p className="text-white/60 text-lg leading-relaxed mb-6">
-          At FFCVM, we believe the future of wealth management is hybrid. The boundaries between
-          digital assets and legacy physical assets are dissolving, giving rise to a more fluid,
-          interconnected global economy.
+          At FFCVM, we believe that the future of wealth management is hybrid. The boundaries between digital assets and legacy physical assets are dissolving, giving rise to a more fluid, interconnected global economy.
         </p>
         <p className="text-white/55 text-lg leading-relaxed mb-8">
-          Our ultimate objective extends beyond just modifying how mortgages work. We are defining
-          the definitive standard of financial mobility for the next generation of global asset
-          holders — paving the way for a frictionless world where capital flows effortlessly
-          between the digital screen and the physical foundation.
+          Our ultimate objective extends beyond just modifying how mortgages work. We are defining the definitive standard of financial mobility for the next generation of global asset holders. By continuously innovating at the intersection of blockchain architecture, real estate law, and institutional finance, FFCVM is paving the way for a frictionless world where capital flows effortlessly between the digital screen and the physical foundation.
         </p>
         <div
           className="inline-block px-8 py-5 rounded-2xl mb-10 text-left sm:text-center"
